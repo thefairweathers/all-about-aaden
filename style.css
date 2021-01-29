@@ -5,6 +5,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  display: block;
+  position: absolute;
+}
+
+.hero-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(24,54,105,0.6);
 }
 
 .hero-content {
@@ -32,9 +45,14 @@ body {
 
 .home-page {
     color: black;
+    z-index: 900;
 }
 
 .title {
-    background-color:black;
-    color: white;
+    color: #ffffff;
+    z-index: 900;
+}
+
+.title-bg {
+    background-color: black;
 }
