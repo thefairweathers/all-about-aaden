@@ -1,20 +1,22 @@
 .hero-container {
   background-image: url(https://static.owayo-cdn.com/newhp/img/magazin/hockeyrinks/ice-hockey-rink-670px.jpg);
-  padding: 20px;
+  padding: 60px;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
 }
 
 .navigation {
- background-color: black;   
+ background-color: black;
+ background-size: cover;   
 }
 
 .navigation a {
 color: white;
+text-decoration: none;
 }
 
 .navigation li {
     display: inline-block;
-    padding: 5px;
+    padding: 8px;
 }
