@@ -120,4 +120,5 @@ body {
 .lol h1 {
     font-size: 45px;
     color: black;
+    z-index: 900;
 }
