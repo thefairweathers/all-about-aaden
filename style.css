@@ -9,6 +9,17 @@
   position: relative;
 }
 
+.family {
+    background-image: url(https://pbs.twimg.com/profile_images/871146267157688321/xO0ygP8I.jpg);
+    padding: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+
 .hero-container::before {
   content: "";
   display: block;
@@ -59,6 +70,11 @@ body {
 .sportsa {
     background: linear-gradient(to right,white,black);
     margin: 0;
+}
+
+.sportsa p {
+    margin-left: 25px;
+    margin-right: 50%;
 }
 
 
