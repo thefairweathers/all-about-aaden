@@ -10,13 +10,16 @@
 }
 
 .family {
-    background-image: url(https://pbs.twimg.com/profile_images/871146267157688321/xO0ygP8I.jpg);
-    padding: 80px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    display: block;
-    position: relative;
+ height: auto;
+ width: 100%;
+ float: center;
+ background: linear-gradient(to right,white,black);
+}
+
+.family p {
+    margin-left: 25px;
+    margin-right: 50%;
+
 }
 
 
@@ -77,4 +80,34 @@ body {
     margin-right: 50%;
 }
 
+.family-page {
+    color: black;
+    z-index: 900;
+    position: relative;
+}
 
+.prank {
+    background: linear-gradient(to right,black,rgb(0, 145, 255));
+}
+
+.prank h1 {
+    color: antiquewhite;
+}
+
+.prank-button {
+        padding: 5px 10px;
+        background: skyblue;
+        border: 1px solid white;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+}
+
+.prank-page {
+    background: linear-gradient(to right,black,rgb(0, 145, 255));
+}
+
+img {
+    width: 100%;
+    height:auto; 
+}
