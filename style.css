@@ -62,9 +62,10 @@ body {
     color: black;
     z-index: 900;
     position: relative;
+    font-size: 25px;
 }
 
-.title {
+.poo {
     color: black;
     z-index: 900;
     position: relative;
@@ -107,11 +108,6 @@ body {
     background: linear-gradient(to right,black,rgb(0, 145, 255));
 }
 
-img {
-    width: 100%;
-    height:auto; 
-}
-
 .ree img {
     height: auto;
     width: 100%;
@@ -119,4 +115,9 @@ img {
 
 .ree {
     background-color: black;
+}
+
+.lol h1 {
+    font-size: 45px;
+    color: black;
 }
